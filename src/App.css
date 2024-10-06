@@ -1,0 +1,49 @@
+.main{
+    margin: 0 auto;
+   }
+   
+  .main h1{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(116, 232, 108),green );
+    height: 110px;
+    text-align: center;
+    padding-top:15px ;
+    font-weight: bold;
+    font-size: 60px;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+  }
+   
+  form{
+    text-align: center;
+    font-size: 25px;
+  }
+  input{
+    width: 450px;
+    height: 50px;
+    box-shadow:  3px 3px gray;
+    margin: 10px;
+  }
+
+  .list-group {
+    max-width: 100%; 
+    width: 552px;  
+    font-size: 2rem;
+    margin: 15px auto; 
+}
+
+.list-group li {
+    background-color: rgb(234, 234, 234);
+    margin-top: 2px;
+    border-color: white;
+    padding: 8px;
+    font-size: 28px;
+}
+
+
+@media (max-width: 600px) {
+    .list-group {
+        width: 90%; 
+        font-size: 1.5rem; 
+    }
+}
+
