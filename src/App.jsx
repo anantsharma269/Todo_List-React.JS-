@@ -45,7 +45,7 @@ function App() {
       </form>
       
       <ul className="list-group">
-        {tasks.map((t, index) => (
+        {tasks.toReversed().map((t, index) => (
           <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
             {t}
             <button style={{width:"30px"}}
