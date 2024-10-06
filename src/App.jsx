@@ -50,7 +50,7 @@ function App() {
             {t}
             <button style={{width:"30px"}}
               className="btn btn-danger btn-sm" 
-              onClick={() => handleRemoveTask(index)}
+              onClick={() => handleRemoveTask(tasks.length-index-1)}
             >
               X
             </button>
